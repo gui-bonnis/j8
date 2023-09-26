@@ -1,4 +1,4 @@
-package java.j8.ds;
+package j.j8.ds;
 
 public class Application {
 
