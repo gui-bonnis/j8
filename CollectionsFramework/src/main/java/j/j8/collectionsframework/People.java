@@ -1,4 +1,4 @@
-package j.j8.ds;
+package j.j8.collectionsframework;
 
 public class People {
     private final String name;

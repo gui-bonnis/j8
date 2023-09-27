@@ -6,6 +6,10 @@
 ### What is the main advantage?
 ### What is the main disadvantage?
 ### When not use?
+### How to instantiate?
+### How to destroy?
+### Where it is located in memory?
+### Is it an Enumerator, Iterator, other?
 ### What is the BigO cost?
 ### What is the Memory and HD costs?
 ### What other data structure is similar?
@@ -58,3 +62,9 @@
 
 **IdentityHashMap:** A map that uses reference equality (==) rather than object equality (equals) to compare keys
 
+## Generics
+
+### Declaration
+### Wildcards
+### Bounded Type Parameters
+### Generic Methods

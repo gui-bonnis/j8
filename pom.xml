@@ -11,10 +11,10 @@
 
     <modules>
         <module>ds</module>
-        <module>dp</module>
+        <module>DesignPatterns</module>
         <module>lambda</module>
         <module>oo</module>
-        <module>algo</module>
+        <module>Algoritms</module>
         <module>io</module>
         <module>tr</module>
         <module>rest</module>
@@ -24,6 +24,17 @@
         <module>wsocket</module>
         <module>net</module>
         <module>others</module>
+        <module>CoreJavaConcepts</module>
+        <module>CollectionsFramework</module>
+        <module>ConcurrencyAndMultithreading</module>
+        <module>ExceptionHandling</module>
+        <module>JavaIO</module>
+        <module>JavaMemoryManagement</module>
+        <module>Java8Features</module>
+        <module>JavaEE</module>
+        <module>WebServices</module>
+        <module>PerformanceOptimization</module>
+        <module>SecurityBestPractices</module>
     </modules>
 
     <properties>
