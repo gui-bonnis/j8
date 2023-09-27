@@ -6,10 +6,18 @@ public class Performance {
     public static void reset() {
         startTime = 0L;
     }
-    public static void start() {
+    public static void startNanosecond() {
+        startTime = System.nanoTime();
+    }
+    public static void endNanoseconds() {
+        long endTime = System.nanoTime();
+        long elapsedTime = endTime - startTime;
+        System.out.println("Time taken to execute: " + elapsedTime + " nanoseconds");
+    }
+    public static void startMillisecond() {
         startTime = System.currentTimeMillis();
     }
-    public static void end() {
+    public static void endMilliseconds() {
         long endTime = System.currentTimeMillis();
         long elapsedTime = endTime - startTime;
         System.out.println("Time taken to execute: " + elapsedTime + " milliseconds");

@@ -8,4 +8,19 @@ public class People {
         this.name = name;
         this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public People(People other) {
+        this.name = other.name;
+        this.age = other.age;
+    }
+
+
 }

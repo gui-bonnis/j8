@@ -12,11 +12,11 @@ public class ArrayReadingPerformance {
         }
 
         // Measure the time taken to read all elements
-        Performance.start();
+        Performance.startMillisecond();
         for (int i = 0; i < intArray.length; i++) {
             int element = intArray[i];
         }
-        Performance.end();
+        Performance.endMilliseconds();
     }
 }
 
