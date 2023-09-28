@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Algoritms/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Algoritms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Algorithms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Algorithms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CollectionsFramework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CollectionsFramework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConcurrencyAndMultithreading/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ConcurrencyAndMultithreading/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CoreJavaConcepts/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CoreJavaConcepts/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/jpa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPatterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPatterns/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ExceptionHandling/src/main/java" charset="UTF-8" />
@@ -21,30 +25,26 @@
     <file url="file://$PROJECT_DIR$/JavaIO/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaMemoryManagement/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaMemoryManagement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lambda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lambda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Network/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Network/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PerformanceOptimization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PerformanceOptimization/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SecurityBestPractices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SecurityBestPractices/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebServices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebServices/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data/jpa/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data/jpa/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ds/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ds/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lambda/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lambda/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msg/kfk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msg/kfk/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msg/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msg/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/net/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/net/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/others/src/main/java" charset="UTF-8" />
