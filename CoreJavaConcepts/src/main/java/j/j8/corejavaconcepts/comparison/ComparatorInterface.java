@@ -1,34 +1,19 @@
 package j.j8.corejavaconcepts.comparison;
 
+import j.j8.corejavaconcepts.Person;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 public class ComparatorInterface {
     public static void main(String[] args) {
-        List<People> people = new ArrayList<>();// Populate the list
-        people.add(new People("Richard"));
-        people.add(new People("Mary"));
-        people.add(new People("John"));
-        people.sort(Comparator.comparing(People::getName)); // Sort by name
+        List<Person> person = new ArrayList<>();// Populate the list
+        person.add(new Person("Richard"));
+        person.add(new Person("Mary"));
+        person.add(new Person("John"));
+        person.sort(Comparator.comparing(Person::getName)); // Sort by name
 
-        people.forEach(System.out::println);
-    }
-
-    public static class People {
-        private final String name;
-
-        public People(String name) {
-            this.name = name;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        @Override
-        public String toString() {
-            return this.name;
-        }
+        person.forEach(System.out::println);
     }
 }
