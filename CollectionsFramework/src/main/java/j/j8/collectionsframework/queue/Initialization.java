@@ -28,5 +28,9 @@ public class Initialization {
         // Checking if the Queue is empty
         boolean isEmpty = queue.isEmpty();
         System.out.println("Is Queue Empty: " + isEmpty);
+
+        // Size of the Queue
+        int queueSize = queue.size();
+        System.out.println("Queue Size: " + queueSize);
     }
 }

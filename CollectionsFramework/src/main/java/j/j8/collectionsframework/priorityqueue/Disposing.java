@@ -1,10 +1,10 @@
-package j.j8.collectionsframework.stack;
+package j.j8.collectionsframework.priorityqueue;
 
 
-import java.util.Stack;
+import java.util.PriorityQueue;
 
 public class Disposing {
-    private final Stack<Integer> numbers = new Stack<>(); // When the MyClass instance is no longer referenced, numbers becomes eligible for garbage collection
+    private final PriorityQueue<Integer> numbers = new PriorityQueue<>(); // When the MyClass instance is no longer referenced, numbers becomes eligible for garbage collection
 
     public static void main(String[] args) {
         disposalNullify();
@@ -13,7 +13,7 @@ public class Disposing {
     }
 
     private static void disposalNullify() {
-        Stack<Integer> num = new Stack<>();
+        PriorityQueue<Integer> num = new PriorityQueue<>();
 
         // Make sure there are no references to 'num' when you're done with it.
         num = null; // Nullify the reference
@@ -21,17 +21,17 @@ public class Disposing {
     }
 
     private static void disposalMethodScope() {
-        Stack<Integer> num = new Stack<>();
+        PriorityQueue<Integer> num = new PriorityQueue<>();
 
-        // use the Stack
+        // use the PriorityQueue
 
     } // When someMethod() exits, intArray goes out of scope
 
     private static void disposalReassigningReference() {
-        Stack<Integer> num = new Stack<>();
+        PriorityQueue<Integer> num = new PriorityQueue<>();
 
         // Make sure there are no references to 'num' when you're done with it.
-        num = new Stack<>(); // Nullify the reference
+        num = new PriorityQueue<>(); // Nullify the reference
     }
 
 }
