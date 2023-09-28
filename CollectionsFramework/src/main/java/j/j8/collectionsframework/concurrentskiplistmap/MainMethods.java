@@ -1,5 +1,6 @@
 package j.j8.collectionsframework.concurrentskiplistmap;
 
+import java.util.Map;
 import java.util.concurrent.ConcurrentSkipListMap;
 
 public class MainMethods {
