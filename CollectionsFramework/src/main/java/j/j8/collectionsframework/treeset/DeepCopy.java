@@ -1,4 +1,4 @@
-package j.j8.collectionsframework.hashset;
+package j.j8.collectionsframework.treeset;
 
 import java.io.*;
 import java.util.HashSet;

@@ -1,10 +1,10 @@
 package j.j8.collectionsframework.linkedhashset;
 
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
 public class Disposing {
-    private final LinkedHashSet<Integer> hashMap = new LinkedHashSet<>();
+    private final HashSet<String> mySet = new HashSet<>(); //  When the MyClass instance is no longer referenced, mySet becomes eligible for garbage collection
 
     public static void main(String[] args) {
         disposalNullify();
@@ -13,25 +13,25 @@ public class Disposing {
     }
 
     private static void disposalNullify() {
-        LinkedHashSet<Integer> num = new LinkedHashSet<>();
+        HashSet<String> set = new HashSet<>();
 
-        // Make sure there are no references to 'num' when you're done with it.
-        num = null; // Nullify the reference
+        // Make sure there are no references to 'set' when you're done with it.
+        set = null; // Nullify the reference
 
     }
 
     private static void disposalMethodScope() {
-        LinkedHashSet<Integer> num = new LinkedHashSet<>();
+        HashSet<String> set = new HashSet<>();
 
         // use the HashMap
 
-    } // When someMethod() exits, intArray goes out of scope
+    } // When someMethod() exits, set goes out of scope
 
     private static void disposalReassigningReference() {
-        LinkedHashSet<Integer> num = new LinkedHashSet<>();
+        HashSet<String> set = new HashSet<>();
 
-        // Make sure there are no references to 'num' when you're done with it.
-        num = new LinkedHashSet<>(); // Nullify the reference
+        // Make sure there are no references to 'set' when you're done with it.
+        set = new HashSet<>(); // Nullify the reference
     }
 
 }
