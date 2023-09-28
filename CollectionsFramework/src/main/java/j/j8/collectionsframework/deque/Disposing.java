@@ -24,7 +24,7 @@ public class Disposing {
     private static void disposalMethodScope() {
         Deque<String> deque = new ArrayDeque<>();
 
-        // use the HashMap
+        // use the Deque
 
     } // When someMethod() exits, deque goes out of scope
 
